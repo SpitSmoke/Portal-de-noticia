@@ -92,6 +92,9 @@ aside .noticia {
     margin-bottom: 24px;
 }
 
+button{
+    display: none;
+}
 .noticias {
     display: grid;
     grid-template-columns: repeat(3, 32.6%);
@@ -162,6 +165,7 @@ aside .noticia {
 
     .botao-menu button {
         padding: 8px;
+        display: block;
     }
 }
 
